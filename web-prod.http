@@ -1,0 +1,24 @@
+GET http://localhost:4000/product-api/getProducts
+
+###
+GET http://localhost:4000/product-api/getProduct/A23
+
+###
+POST http://localhost:4000/product-api/createProduct
+Content-Type: application/json
+
+{
+    "ProdId":"A26",
+    "prodName":"Laptop",
+    "price":75000
+}
+###
+
+PUT http://localhost:4000/product-api/updateProduct
+Content-Type: application/json
+
+{
+    "prodId":"A24",
+    "prodName":"TV",
+    "price":30000
+}
